@@ -1,0 +1,28 @@
+{
+  "name": "practicum",
+  "version": "1.0.0",
+  "description": "1. Download npm and node from https://nodejs.org/en/\r 2. Navigate to project directory in terminal and run:\r ```npm install```\r 4. Ensure there's a node_modules folder in your local directory",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.888.0",
+    "dotenv": "^8.2.0",
+    "fhirclient": "^2.3.1",
+    "file-upload-with-preview": "^4.1.0",
+    "fs": "^0.0.1-security",
+    "util": "^0.12.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.gatech.edu/practicum/practicum.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
